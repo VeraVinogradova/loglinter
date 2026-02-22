@@ -1,0 +1,74 @@
+# Binaries
+loglinter.so
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binaries
+*.test
+*.test.exe
+
+# Coverage files
+*.out
+*.cov
+*.html
+coverage.txt
+coverage.html
+profile.out
+
+# Go workspace files
+go.work
+go.work.sum
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.*.swp
+.*.swo
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.log
+
+# Dependencies
+vendor/
+dist/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Coverage
+coverage/
+
+# Build artifacts
+build/
+bin/
+out/
+
+# Config local
+.loglinter.local.json
+*.local.json
+
+# Debug
+debug/
+debug.test
+
+# Profiling
+cpu.pprof
+mem.pprof
+block.pprof
+mutex.pprof

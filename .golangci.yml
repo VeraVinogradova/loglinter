@@ -1,0 +1,10 @@
+version: "2"
+
+linters:
+  enable:
+    - loglinter
+
+  settings:
+    custom:
+      loglinter:
+        path: ./loglinter.so
